@@ -5,7 +5,7 @@ int main(){
     std::map<char, int> char_map;
     if(char_map['b'] == NULL){
         std::cout << "It returns null\n";
-        return 0;
     }
+    std::cout << "Here is the output after indexing again with the same input: " << char_map['b'] << "\n";
     return 0;
 }

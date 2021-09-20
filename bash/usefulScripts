@@ -1,0 +1,3 @@
+Useful Scripts:
+    Randomly choose N lines from a text file:
+        - shuf -n <N> <file>

@@ -1,0 +1,18 @@
+// Declaring a pointer to an integer
+int* a = NULL;
+
+// Printing out the pointer address in hexadecimal (this will be null if nothing is allocated)
+printf("%x", a); 
+
+// Printing out the value that the pointer is pointing to (this would print out an error if a has not been allocated, if it has then it will print out the number it points to)
+printf("%d", *a); 
+
+// Getting the pointer of a variable that is not a pointer
+int b = 1;
+printf("%x", &b);
+
+// Pointer to Object and Object to Pointer
+- For things instantiated as a Object:
+    * b -> &b (Primitive to Pointer)
+- For things instantiated as a Pointer:
+    * a -> *a (Pointer to Object)

@@ -9,8 +9,12 @@ int main() {
 
   printf("The address of p is: %x\n", p);
   printf("The value of p is: %d\n", *p);
-  printf("The address of p is: %x\n", ap);
+  printf("The address of ap is: %x\n", ap);
   printf("The value of ap is: %d\n", *ap);
+
+
+  // Printing out what we are doing with the pointers and the values
+  printf("\nSetting x to 10, p = \&x, and ap = \&x\n\n");
 
   int x = 10;
   p = &x;
